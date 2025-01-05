@@ -17,6 +17,19 @@ using these samples, then subsequently extracting the optimal policy from the le
 Experimental results demonstrate that our implementation results in agents with comparable performance to results reported in literature on Breakout and Pong. We also demonstrate that our implementation enables an agent
 to also play Enduro, River Raid, and Space Invaders without game-specific hyperparameter tuning.
 
+
+## Results
+![](https://github.com/bingzhewei/DRL/blob/main/1.png)
+
+In this evaluation episode, the agent achieved a score of 361 points. At around frame 259, the agent
+almost fails to catch the ball and hence the estimated value drops abruptly.
+
+![](https://github.com/bingzhewei/DRL/blob/main/7.png)
+
+At around frame 440, the agent has successfully dug a tunnel through the bricks and bounced the
+ball through the tunnel, so the estimated value rises dramatically.
+![](https://github.com/bingzhewei/DRL/blob/main/8.png)
+
 ## Architecture
 
 The overall code architecture is as shown below. We implemented DQN in
@@ -31,8 +44,3 @@ system to enable visualization of training progress.
 ![](https://github.com/bingzhewei/DRL/blob/main/2.png)
 ![](https://github.com/bingzhewei/DRL/blob/main/3.png)
 ![](https://github.com/bingzhewei/DRL/blob/main/4.png)
-
-
-
-## Results
-![](https://github.com/bingzhewei/DRL/blob/main/1.png)
